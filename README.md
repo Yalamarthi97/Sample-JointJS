@@ -28,7 +28,8 @@ Commented out a piece of code which can be used to get the  JSON rep of the crea
 1. Trying to open different Elements of the Web Page based on click of the elements represented on the Graph
 2. Need to add a feature to reflect back to the Json in case some rearrangement is made on the Web Page ( As of now, Rearranging images on the webpage does not affect the Json Output)
 3. Make the Website more interactive and useable 
-4. Try to Store the Images and Pass them through the API calls rather than using them from Local Storage
+4. Try to Store the Images and Pass them through the API calls rather than using them from Local Storage.
+5. Write a Medium Article explaining the steps involved in replicating this project from scratch. 
 
 
 ## Side Note
