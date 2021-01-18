@@ -1,0 +1,30 @@
+JointJS installtions :
+	npm install jquery --save npm install @types/jquery --save-dev (JQuery )
+	npm install backbone --save npm install @types/backbone --save-dev (BackBone)
+	npm install jointjs --save npm install @types/jointjs --save-dev
+	npm install lodash@3.10.1 --save npm install @types/lodash@3.10.1 --save-dev
+
+Recheck if the dependeny are added (package.json) :
+	jointjs 1.0.3, backbome = 1.3.3, jquery = 3.1.1, lodash = 3.10.1
+
+in angular.json :
+	Add this under scripts:
+		  "../node_modules/jquery/dist/jquery.js",
+    		  "../node_modules/lodash/index.js",
+   		  "../node_modules/backbone/backbone.js",
+    		  "../node_modules/jointjs/dist/joint.js"
+
+	Add this under styles:
+	      "../node_modules/jointjs/css/layout.css",
+              "../node_modules/jointjs/css/themes/material.css",
+              "../node_modules/jointjs/css/themes/default.css"
+
+
+Index.html
+	Under Body:
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jointjs/2.1.0/joint.js"></script>
+	Under Head:
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jointjs/2.1.0/joint.css" />
